@@ -2,21 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic</title>
-    <link>http://localhost:1313/tag/academic/</link>
-      <atom:link href="http://localhost:1313/tag/academic/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/tag/academic/</link>
+      <atom:link href="https://example.com/tag/academic/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
-    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 04 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
-      <link>http://localhost:1313/tag/academic/</link>
+      <link>https://example.com/tag/academic/</link>
     </image>
     
     <item>
+      <title>Markdown</title>
+      <link>https://example.com/post/markdown/</link>
+      <pubDate>Mon, 18 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/markdown/</guid>
+      <description>&lt;h2 id=&#34;что-такое-markdown&#34;&gt;Что такое Markdown&lt;/h2&gt;
+&lt;p&gt;Язык разметки Markdown широко распространён в вебе. На нём пишут readme-файлы и документацию, а его принципы работы используют для оформления сообщений и публикаций в мессенджерах и социальных сетях.&lt;/p&gt;
+&lt;p&gt;Markdown легко конвертируется в HTML, открывается во всех текстовых редакторах и легко читается даже в виде исходного кода. При этом писать на нём куда проще, чем на других языках разметки: HTML, XML, TeX и так далее.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /post/markdown/mk_hucfb3feed069a17f9d9f9bace2c0dabe0_10988_bdb9f0dead0bd36bb1263ba606d8184c.webp 400w,
+               /post/markdown/mk_hucfb3feed069a17f9d9f9bace2c0dabe0_10988_4bce8fe93cfaf6e48f6bb8d353c8f6a2.webp 760w,
+               /post/markdown/mk_hucfb3feed069a17f9d9f9bace2c0dabe0_10988_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;https://example.com/post/markdown/mk_hucfb3feed069a17f9d9f9bace2c0dabe0_10988_bdb9f0dead0bd36bb1263ba606d8184c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;467&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;диалекты-и-редакторы&#34;&gt;Диалекты и редакторы&lt;/h2&gt;
+&lt;p&gt;Базовым Markdown уже мало кто пользуется. Зато у него существуют спецификации и диалекты, которые добавляют в язык новые функции: встраивание HTML-тегов, создание таблиц и чекбоксов, зачёркивание текста, разные варианты переноса строки.&lt;/p&gt;
+&lt;p&gt;Разные редакторы Markdown могут поддерживать или не поддерживать часть новых функций — учтите это при выборе платформы, на которой будете работать.&lt;/p&gt;
+&lt;p&gt;Самый распространённый Markdown — диалект GitHub Flavored Markdown, основанный на спецификации CommonMark. В этой статье мы пользуемся редактором Markdown Editor, который поддерживает практически все инструменты этой парочки (кроме чекбоксов).&lt;/p&gt;
+&lt;h2 id=&#34;параграфы-и-разрывы-строк-paragraphs-and-line-breaks&#34;&gt;Параграфы и разрывы строк (paragraphs and line breaks)&lt;/h2&gt;
+&lt;p&gt;Чтобы поделить текст на параграфы, между ними нужно оставить пустую строку. Строка считается пустой, даже если в ней есть пробелы и табуляции. Если же строки находятся рядом, то они автоматически склеиваются в одну.&lt;/p&gt;
+&lt;p&gt;Для переноса строки внутри одного параграфа есть три метода:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;поставить в конце строки два или больше пробела   ;
+поставить в конце строки обратную косую черту \;
+использовать HTML-тег &amp;lt;br&amp;gt;.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Обратите внимание, что у каждого из методов есть свои недостатки:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;пробелы в конце строки бывает трудно заметить, и это может запутать читателя;
+обратный слеш вводится в стандарте CommonMark и может поддерживаться не всеми редакторами;
+HTML-теги в Markdown также поддерживаются не всеми редакторами.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;заголовки-headings&#34;&gt;Заголовки (headings)&lt;/h2&gt;
+&lt;p&gt;В синтаксисе Markdown есть шесть уровней заголовков: от H1 (самого большого) до H6 (самого маленького). Для их выделения используют решётки #, при этом есть несколько тонкостей:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;решётки можно ставить как перед заголовком, так и с двух сторон от него (на уровень заголовка влияют только те #, которые находятся перед ним);
+количество решёток соответствует уровню заголовка: одна для первого уровня, две для второго и так далее;
+между решёткой и текстом ставится пробел.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;выделение-текста-emphasis&#34;&gt;Выделение текста (emphasis)&lt;/h2&gt;
+&lt;p&gt;Чтобы изменить начертание текста, нужно выделить его с двух сторон спецсимволами следующим образом: &amp;lt;спецсимвол&amp;gt;текст&amp;lt;спецсимвол&amp;gt;.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Курсив (italic)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Для выделения текста курсивом нужно использовать одну звёздочку * или нижнее подчёркивание _.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жирный (bold)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Для выделения текста жирным нужно использовать две звёздочки ** или два нижних подчёркивания __.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Жирный курсив (bold and italic)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Для выделения текста сразу обоими стилями нужно использовать три звёздочки *** или три нижних подчёркивания ___.&lt;/p&gt;
+&lt;p&gt;Обратите внимание, что если вы хотите выделить фрагмент внутри слова, то это корректно сработает только при использовании звёздочек.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Зачёркнутый (strikethrough)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Чтобы зачеркнуть текст, нужно использовать две тильды ~~. Такая опция есть только в диалекте GitHub Flavored Markdown.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Подчёркнутый (underline)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;В синтаксисе Markdown нет встроенного способа подчеркнуть текст. Но если ваш редактор поддерживает HTML, то можно использовать теги:&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Управление версиями. Git.</title>
-      <link>http://localhost:1313/post/git/</link>
+      <link>https://example.com/post/git/</link>
       <pubDate>Sat, 04 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/git/</guid>
+      <guid>https://example.com/post/git/</guid>
       <description>&lt;h2 id=&#34;что-такое-git&#34;&gt;Что такое Git&lt;/h2&gt;
 &lt;p&gt;Git — это специальная программа, которая позволяет отслеживать любые изменения в файлах, хранить их версии и оперативно возвращаться в любое сохранённое состояние.&lt;/p&gt;
 &lt;p&gt;Большинство других систем контроля версий хранят информацию в виде списка изменений в файлах. Git работает иначе — он хранит скорее набор снимков — полное отображение того, как выглядит файл в момент сохранения. Это позволяет всегда иметь полную информацию обо всех файлах и быстро восстанавливать любую из предыдущих версий.&lt;/p&gt;
@@ -46,7 +120,7 @@
                /post/git/bran_huab0a8266d5c3fb6c5c1b67b712f117f0_45037_ff55390346f2db9487e23852a7ae7cfd.webp 400w,
                /post/git/bran_huab0a8266d5c3fb6c5c1b67b712f117f0_45037_a3af2bc3a18b7b4bd83408db1bd8ad48.webp 760w,
                /post/git/bran_huab0a8266d5c3fb6c5c1b67b712f117f0_45037_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/git/bran_huab0a8266d5c3fb6c5c1b67b712f117f0_45037_ff55390346f2db9487e23852a7ae7cfd.webp&#34;
+               src=&#34;https://example.com/post/git/bran_huab0a8266d5c3fb6c5c1b67b712f117f0_45037_ff55390346f2db9487e23852a7ae7cfd.webp&#34;
                width=&#34;760&#34;
                height=&#34;372&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -115,7 +189,7 @@
                /post/git/ui_hu2310f9d80e5c3f69ea4fc7d27c8a945f_53582_f23cf6e008ac09b7a00bdc5bff931685.webp 400w,
                /post/git/ui_hu2310f9d80e5c3f69ea4fc7d27c8a945f_53582_8dd9f9fb089126c31456476f802fc80f.webp 760w,
                /post/git/ui_hu2310f9d80e5c3f69ea4fc7d27c8a945f_53582_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/git/ui_hu2310f9d80e5c3f69ea4fc7d27c8a945f_53582_f23cf6e008ac09b7a00bdc5bff931685.webp&#34;
+               src=&#34;https://example.com/post/git/ui_hu2310f9d80e5c3f69ea4fc7d27c8a945f_53582_f23cf6e008ac09b7a00bdc5bff931685.webp&#34;
                width=&#34;760&#34;
                height=&#34;367&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
